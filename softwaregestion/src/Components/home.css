@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    width: 100%;
+   
+    justify-items: center;
+}
+
+@media(min-width:952px) {
+    .home-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width:1150px) {
+    .home-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.option-box {
+   
+    width: 80%;
+    margin-top: 1.4em;
+   
+ }
+ .option-box h2 {
+     text-align: center;
+ }
+ .option-box .bg-box {
+    
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     box-shadow: 0px 4px 14px 2px rgba(0, 0, 0, 0.5);
+     transition: box-shadow 200ms ease-in-out;
+     border-radius: 5px;
+     cursor: pointer;
+     width: 100%;
+     height: 300px;
+     margin-top: 1.3em;
+     position: relative;
+    
+ }
+ 
+ .option-box .bg-box:hover {
+     box-shadow: 0px 4px 14px 4px rgba(0, 0, 0, 0.5);
+     transition: box-shadow 200ms ease-in-out;
+ }
+
+ .bg-1 {
+     background-image: url('../img/undraw_business_deal_cpi9.svg');
+ }
+ .bg-2 {
+     background-image: url('../img/undraw_printing_invoices_5r4r.svg');
+ }
+
+ .bg-3 {
+     background-image: url('../img/undraw_interview_rmcf.svg');
+ }
+
+ .bg-4 {
+     background-image:url('../img/undraw_wallet_aym5.svg') ;
+ }
+
+ .bg-5 {
+     background-image: url('../img/undraw_empty_cart_co35.svg');
+ }
+
+ .bg-6 {
+     background-image: url('../img/undraw_online_articles_79ff.svg');
+ }
+
+ .bg-7 {
+     background-image: url('../img/undraw_receipt_ecdd.svg');
+ }
+
+ .link {
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+    
+ }

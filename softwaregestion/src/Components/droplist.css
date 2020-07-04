@@ -1,0 +1,11 @@
+.down {
+    width: 100%;
+    bottom: 0;
+    border:2px solid black;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 300px;
+    overflow: scroll;
+}

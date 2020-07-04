@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.client-form-container {
+    width: 100%;
+   
+    
+}
+
+.client-form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-form-container form .input-box-client {
+    width: 100%;
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input-box-client input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    font-size: 1.4em;
+
+}
