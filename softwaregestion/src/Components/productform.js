@@ -18,7 +18,7 @@ const ProductForm = () => {
             alert("Todos los campos deben estar rellenos")
         } else {
             const product = {
-                name:ProductValues.name.trim(),
+                name:ProductValues.name.trim().replace(/ +(?= )/g,''),
                 pvc : ProductValues.pvc,
                 pvp: ProductValues.pvp
             }

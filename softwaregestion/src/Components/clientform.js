@@ -19,7 +19,7 @@ const ClientForm = () => {
             return
         }
         const client = {
-            nombre: clientName
+            nombre: clientName.trim().replace(/ +(?= )/g,'')
         }
         const response = await fetch("http://localhost:7000/newclient" , {
             method:'POST',
